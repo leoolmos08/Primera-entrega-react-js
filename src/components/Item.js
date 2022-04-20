@@ -36,7 +36,7 @@ const Item = ({ id, title, stock, price, pictureUrl, description }) => {
                     <Chip icon={<Inventory2OutlinedIcon/>} label={stock}/>
                 </Stack>
                 <IconButton>
-                   <Link to={`item/${id}`}><InfoOutlinedIcon /></Link>
+                   <Link to={`/item/${id}`}><InfoOutlinedIcon /></Link>
                 </IconButton>
             </CardActions>
         </Card>
